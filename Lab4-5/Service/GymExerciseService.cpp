@@ -23,6 +23,10 @@ void GymExerciseService::update_exercise(int position, char *name, int series, i
     repository.update_exercise(gym_exercise, name, series, reps, weight_kg);
 }
 
+bool GymExerciseService::find_exercise(const GymExercise &gym_exercise) {
+    return repository.find_exercise(gym_exercise);
+}
+
 int GymExerciseService::size() {
     return repository.size();
 }
