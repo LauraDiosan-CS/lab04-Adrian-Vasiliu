@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/madal/Desktop/Lab4-5/Domain/GymExercise.h
+iostream
+-
+
+C:/Users/madal/Desktop/Lab4-5/Repository/RepositorySTL.h
+../Domain/GymExercise.h
+C:/Users/madal/Desktop/Lab4-5/Domain/GymExercise.h
+vector
+-
+
+C:/Users/madal/Desktop/Lab4-5/Service/GymExerciseService.h
+../Repository/RepositorySTL.h
+C:/Users/madal/Desktop/Lab4-5/Repository/RepositorySTL.h
+
+C:/Users/madal/Desktop/Lab4-5/Tests/Tests.cpp
+../Domain/GymExercise.h
+C:/Users/madal/Desktop/Lab4-5/Domain/GymExercise.h
+../Repository/RepositorySTL.h
+C:/Users/madal/Desktop/Lab4-5/Repository/RepositorySTL.h
+../Service/GymExerciseService.h
+C:/Users/madal/Desktop/Lab4-5/Service/GymExerciseService.h
+cassert
+-
+cstring
+-
+
