@@ -1,0 +1,3 @@
+Chrome 512 RAM
+CLion 1024 Swap
+Calculator 16 RAM
