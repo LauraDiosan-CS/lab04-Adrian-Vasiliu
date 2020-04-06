@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\madal\Desktop\Lab4-5
+CMAKE_SOURCE_DIR = C:\Users\Admin\CLionProjects\Lab4-5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\madal\Desktop\Lab4-5\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Admin\CLionProjects\Lab4-5\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = C:\Users\madal\Desktop\Lab4-5\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\madal\Desktop\Lab4-5\cmake-build-debug\CMakeFiles C:\Users\madal\Desktop\Lab4-5\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin\CLionProjects\Lab4-5\cmake-build-debug\CMakeFiles C:\Users\Admin\CLionProjects\Lab4-5\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\madal\Desktop\Lab4-5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin\CLionProjects\Lab4-5\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -176,32 +176,32 @@ Domain/GymExercise.cpp.s:
 	$(MAKE) -f CMakeFiles\Lab4_5.dir\build.make CMakeFiles/Lab4_5.dir/Domain/GymExercise.cpp.s
 .PHONY : Domain/GymExercise.cpp.s
 
-Repository/RepositorySTL.obj: Repository/RepositorySTL.cpp.obj
+Repository/ArrayRepository.obj: Repository/ArrayRepository.cpp.obj
 
-.PHONY : Repository/RepositorySTL.obj
+.PHONY : Repository/ArrayRepository.obj
 
 # target to build an object file
-Repository/RepositorySTL.cpp.obj:
-	$(MAKE) -f CMakeFiles\Lab4_5.dir\build.make CMakeFiles/Lab4_5.dir/Repository/RepositorySTL.cpp.obj
-.PHONY : Repository/RepositorySTL.cpp.obj
+Repository/ArrayRepository.cpp.obj:
+	$(MAKE) -f CMakeFiles\Lab4_5.dir\build.make CMakeFiles/Lab4_5.dir/Repository/ArrayRepository.cpp.obj
+.PHONY : Repository/ArrayRepository.cpp.obj
 
-Repository/RepositorySTL.i: Repository/RepositorySTL.cpp.i
+Repository/ArrayRepository.i: Repository/ArrayRepository.cpp.i
 
-.PHONY : Repository/RepositorySTL.i
+.PHONY : Repository/ArrayRepository.i
 
 # target to preprocess a source file
-Repository/RepositorySTL.cpp.i:
-	$(MAKE) -f CMakeFiles\Lab4_5.dir\build.make CMakeFiles/Lab4_5.dir/Repository/RepositorySTL.cpp.i
-.PHONY : Repository/RepositorySTL.cpp.i
+Repository/ArrayRepository.cpp.i:
+	$(MAKE) -f CMakeFiles\Lab4_5.dir\build.make CMakeFiles/Lab4_5.dir/Repository/ArrayRepository.cpp.i
+.PHONY : Repository/ArrayRepository.cpp.i
 
-Repository/RepositorySTL.s: Repository/RepositorySTL.cpp.s
+Repository/ArrayRepository.s: Repository/ArrayRepository.cpp.s
 
-.PHONY : Repository/RepositorySTL.s
+.PHONY : Repository/ArrayRepository.s
 
 # target to generate assembly for a file
-Repository/RepositorySTL.cpp.s:
-	$(MAKE) -f CMakeFiles\Lab4_5.dir\build.make CMakeFiles/Lab4_5.dir/Repository/RepositorySTL.cpp.s
-.PHONY : Repository/RepositorySTL.cpp.s
+Repository/ArrayRepository.cpp.s:
+	$(MAKE) -f CMakeFiles\Lab4_5.dir\build.make CMakeFiles/Lab4_5.dir/Repository/ArrayRepository.cpp.s
+.PHONY : Repository/ArrayRepository.cpp.s
 
 Service/GymExerciseService.obj: Service/GymExerciseService.cpp.obj
 
@@ -299,9 +299,9 @@ help:
 	@echo ... Domain/GymExercise.obj
 	@echo ... Domain/GymExercise.i
 	@echo ... Domain/GymExercise.s
-	@echo ... Repository/RepositorySTL.obj
-	@echo ... Repository/RepositorySTL.i
-	@echo ... Repository/RepositorySTL.s
+	@echo ... Repository/ArrayRepository.obj
+	@echo ... Repository/ArrayRepository.i
+	@echo ... Repository/ArrayRepository.s
 	@echo ... Service/GymExerciseService.obj
 	@echo ... Service/GymExerciseService.i
 	@echo ... Service/GymExerciseService.s

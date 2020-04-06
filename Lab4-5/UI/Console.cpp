@@ -54,10 +54,26 @@ void Console::update_exercise() {
 }
 
 void Console::show_exercises() {
-    vector<GymExercise> exercises = service.get_all();
-    for (int i = 0; i < service.size(); i++)
+    GymExercise *exercises = service.get_all();
+    for (int i = 0; i < service.get_size(); i++)
         cout << i + 1 << ". " << exercises[i];
     cout << endl;
+}
+
+void Console::show_exercises_with_seriesRepsWeight_bigger_x() {
+    int x, result_size = 0;
+    GymExercise result[service.get_size()];
+    cout << "x = ";
+    cin >> x;
+    service.get_exercises_with_seriesRepsWeight_bigger_x(x, result_size, result);
+    for (int i = 0; i < result_size; i++)
+        cout << i + 1 << ". " << result[i];
+    cout << endl;
+}
+
+void Console::remove_exercises_with_repsWeight_smaller_5() {
+    service.remove_exercises_with_repsWeight_smaller_5();
+    cout << "Done!" << endl;
 }
 
 void Console::run_console() {
@@ -68,7 +84,9 @@ void Console::run_console() {
              << "2. Delete a gym exercise\n"
              << "3. Update a gym exercise\n"
              << "4. Show all gym exercises\n"
-             << "5. Exit\n"
+             << "5. Show exercises with series*reps*weight > x\n"
+             << "6. Remove exercises with reps*weight < 5\n"
+             << "7. Exit\n"
              << "\nOption: ";
         cin >> option;
         if (option == 1)
@@ -80,6 +98,10 @@ void Console::run_console() {
         else if (option == 4)
             show_exercises();
         else if (option == 5)
+            show_exercises_with_seriesRepsWeight_bigger_x();
+        else if (option == 6)
+            remove_exercises_with_repsWeight_smaller_5();
+        else if (option == 7)
             work = false;
         else
             cout << "Invalid option! Retry!\n";

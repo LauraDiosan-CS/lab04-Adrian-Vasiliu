@@ -1,18 +1,20 @@
 #pragma once
-#include "../Repository/RepositorySTL.h"
+#include "../Repository/ArrayRepository.h"
 
 class GymExerciseService {
  private:
-    RepositorySTL repository;
+    ArrayRepository repository;
  public:
     GymExerciseService();
-    explicit GymExerciseService(const RepositorySTL &);
+    explicit GymExerciseService(const ArrayRepository &);
     ~GymExerciseService();
+    bool find_exercise(const GymExercise &);
     void add_exercise(char *, int, int, int);
     void delete_exercise(int);
     void update_exercise(int, char *, int, int, int);
-    bool find_exercise(const GymExercise &);
-    int size();
+    int get_size();
+    GymExercise *get_all();
     GymExercise get_exercise_from_position(int position);
-    vector<GymExercise> get_all();
+    void get_exercises_with_seriesRepsWeight_bigger_x(int x, int &result_size, GymExercise result[]);
+    void remove_exercises_with_repsWeight_smaller_5();
 };

@@ -2,11 +2,15 @@
 
 GymExerciseService::GymExerciseService() = default;
 
-GymExerciseService::GymExerciseService(const RepositorySTL &repository_stl) {
-    repository = repository_stl;
+GymExerciseService::GymExerciseService(const ArrayRepository &repository) {
+    this->repository = repository;
 }
 
 GymExerciseService::~GymExerciseService() = default;
+
+bool GymExerciseService::find_exercise(const GymExercise &gym_exercise) {
+    return repository.get_position_of_exercise(gym_exercise) != -1;
+}
 
 void GymExerciseService::add_exercise(char *name, int series, int reps, int weight_kg) {
     GymExercise gym_exercise(name, series, reps, weight_kg);
@@ -23,18 +27,30 @@ void GymExerciseService::update_exercise(int position, char *name, int series, i
     repository.update_exercise(gym_exercise, name, series, reps, weight_kg);
 }
 
-bool GymExerciseService::find_exercise(const GymExercise &gym_exercise) {
-    return repository.find_exercise(gym_exercise);
+int GymExerciseService::get_size() {
+    return repository.get_size();
 }
 
-int GymExerciseService::size() {
-    return repository.size();
+GymExercise *GymExerciseService::get_all() {
+    return repository.get_all();
 }
 
 GymExercise GymExerciseService::get_exercise_from_position(int position) {
     return repository.get_exercise_from_position(position);
 }
 
-vector<GymExercise> GymExerciseService::get_all() {
-    return repository.get_all();
+void GymExerciseService::get_exercises_with_seriesRepsWeight_bigger_x(int x, int &result_size,
+                                                                      GymExercise result[]) {
+    result_size = 0;
+    GymExercise *exercises = get_all();
+    for (int i = 0; i < get_size(); i++)
+        if (exercises[i].get_series() * exercises[i].get_reps() * exercises[i].get_weight_kg() > x)
+            result[result_size++] = exercises[i];
+}
+
+void GymExerciseService::remove_exercises_with_repsWeight_smaller_5() {
+    GymExercise *exercises = get_all();
+    for (int i = 0; i < get_size(); i++)
+        if (exercises[i].get_reps() * exercises[i].get_weight_kg() < 5)
+            repository.delete_exercise(exercises[i]);
 }

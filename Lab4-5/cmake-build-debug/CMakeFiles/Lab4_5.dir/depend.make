@@ -3,7 +3,7 @@
 
 CMakeFiles/Lab4_5.dir/App.cpp.obj: ../App.cpp
 CMakeFiles/Lab4_5.dir/App.cpp.obj: ../Domain/GymExercise.h
-CMakeFiles/Lab4_5.dir/App.cpp.obj: ../Repository/RepositorySTL.h
+CMakeFiles/Lab4_5.dir/App.cpp.obj: ../Repository/ArrayRepository.h
 CMakeFiles/Lab4_5.dir/App.cpp.obj: ../Service/GymExerciseService.h
 CMakeFiles/Lab4_5.dir/App.cpp.obj: ../Tests/Tests.h
 CMakeFiles/Lab4_5.dir/App.cpp.obj: ../UI/Console.h
@@ -11,22 +11,22 @@ CMakeFiles/Lab4_5.dir/App.cpp.obj: ../UI/Console.h
 CMakeFiles/Lab4_5.dir/Domain/GymExercise.cpp.obj: ../Domain/GymExercise.cpp
 CMakeFiles/Lab4_5.dir/Domain/GymExercise.cpp.obj: ../Domain/GymExercise.h
 
-CMakeFiles/Lab4_5.dir/Repository/RepositorySTL.cpp.obj: ../Domain/GymExercise.h
-CMakeFiles/Lab4_5.dir/Repository/RepositorySTL.cpp.obj: ../Repository/RepositorySTL.cpp
-CMakeFiles/Lab4_5.dir/Repository/RepositorySTL.cpp.obj: ../Repository/RepositorySTL.h
+CMakeFiles/Lab4_5.dir/Repository/ArrayRepository.cpp.obj: ../Domain/GymExercise.h
+CMakeFiles/Lab4_5.dir/Repository/ArrayRepository.cpp.obj: ../Repository/ArrayRepository.cpp
+CMakeFiles/Lab4_5.dir/Repository/ArrayRepository.cpp.obj: ../Repository/ArrayRepository.h
 
 CMakeFiles/Lab4_5.dir/Service/GymExerciseService.cpp.obj: ../Domain/GymExercise.h
-CMakeFiles/Lab4_5.dir/Service/GymExerciseService.cpp.obj: ../Repository/RepositorySTL.h
+CMakeFiles/Lab4_5.dir/Service/GymExerciseService.cpp.obj: ../Repository/ArrayRepository.h
 CMakeFiles/Lab4_5.dir/Service/GymExerciseService.cpp.obj: ../Service/GymExerciseService.cpp
 CMakeFiles/Lab4_5.dir/Service/GymExerciseService.cpp.obj: ../Service/GymExerciseService.h
 
 CMakeFiles/Lab4_5.dir/Tests/Tests.cpp.obj: ../Domain/GymExercise.h
-CMakeFiles/Lab4_5.dir/Tests/Tests.cpp.obj: ../Repository/RepositorySTL.h
+CMakeFiles/Lab4_5.dir/Tests/Tests.cpp.obj: ../Repository/ArrayRepository.h
 CMakeFiles/Lab4_5.dir/Tests/Tests.cpp.obj: ../Service/GymExerciseService.h
 CMakeFiles/Lab4_5.dir/Tests/Tests.cpp.obj: ../Tests/Tests.cpp
 
 CMakeFiles/Lab4_5.dir/UI/Console.cpp.obj: ../Domain/GymExercise.h
-CMakeFiles/Lab4_5.dir/UI/Console.cpp.obj: ../Repository/RepositorySTL.h
+CMakeFiles/Lab4_5.dir/UI/Console.cpp.obj: ../Repository/ArrayRepository.h
 CMakeFiles/Lab4_5.dir/UI/Console.cpp.obj: ../Service/GymExerciseService.h
 CMakeFiles/Lab4_5.dir/UI/Console.cpp.obj: ../UI/Console.cpp
 CMakeFiles/Lab4_5.dir/UI/Console.cpp.obj: ../UI/Console.h

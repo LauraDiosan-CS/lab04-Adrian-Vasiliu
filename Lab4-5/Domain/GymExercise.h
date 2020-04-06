@@ -10,10 +10,9 @@ class GymExercise {
     int weight_kg;
  public:
     GymExercise();
-    GymExercise(char *, int, int, int);
+    GymExercise(const char *, int, int, int);
     GymExercise(const GymExercise &);
     ~GymExercise();
-    GymExercise &operator=(const GymExercise &);
     char *get_name();
     int get_series();
     int get_reps();
@@ -22,6 +21,7 @@ class GymExercise {
     void set_series(int);
     void set_reps(int);
     void set_weight_kg(int);
+    GymExercise &operator=(const GymExercise &);
     bool operator==(const GymExercise &);
     friend ostream &operator<<(ostream &os, const GymExercise &s);
 };
