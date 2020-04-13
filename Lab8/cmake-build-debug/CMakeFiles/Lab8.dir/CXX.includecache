@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Admin/CLionProjects/Lab8/Domain/Food.cpp
+Food.h
+C:/Users/Admin/CLionProjects/Lab8/Domain/Food.h
+
+C:/Users/Admin/CLionProjects/Lab8/Domain/Food.h
+iostream
+-
+Order.h
+C:/Users/Admin/CLionProjects/Lab8/Domain/Order.h
+
+C:/Users/Admin/CLionProjects/Lab8/Domain/Order.h
+iostream
+-
+list
+-
+
+C:/Users/Admin/CLionProjects/Lab8/Domain/Shopping.cpp
+Shopping.h
+C:/Users/Admin/CLionProjects/Lab8/Domain/Shopping.h
+
+C:/Users/Admin/CLionProjects/Lab8/Domain/Shopping.h
+iostream
+-
+Order.h
+C:/Users/Admin/CLionProjects/Lab8/Domain/Order.h
+
