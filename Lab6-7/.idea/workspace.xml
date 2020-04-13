@@ -5,7 +5,7 @@
       <config projectName="Lab6_7" targetName="Lab6_7" />
     </generated>
   </component>
-  <component name="CMakeSettings">
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
@@ -58,6 +58,9 @@
       <workItem from="1586011068068" duration="6369000" />
       <workItem from="1586078302771" duration="22070000" />
       <workItem from="1586147781494" duration="783000" />
+      <workItem from="1586149947006" duration="7824000" />
+      <workItem from="1586346123178" duration="10122000" />
+      <workItem from="1586681648839" duration="27914000" />
     </task>
     <servers />
   </component>
@@ -69,37 +72,65 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1586091963618" />
-    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1586148457476">
+    <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586705283212">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586148457476" />
-    <state width="1367" height="671" key="GridCell.Tab.0.bottom" timestamp="1586148571352">
+    <state x="413" y="113" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1586705283212" />
+    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1586346186318">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="671" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586148571352" />
-    <state width="1367" height="671" key="GridCell.Tab.0.center" timestamp="1586148571352">
+    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586346186318" />
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1586722702779">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="671" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586148571352" />
-    <state width="1367" height="671" key="GridCell.Tab.0.left" timestamp="1586148571352">
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586722702779" />
+    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1586722702779">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="671" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586148571352" />
-    <state width="1367" height="671" key="GridCell.Tab.0.right" timestamp="1586148571352">
+    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586722702779" />
+    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1586722702779">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1367" height="671" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586148571352" />
-    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1586150022017">
+    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586722702779" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1586722702779">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586150022017" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586722702779" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1586722702779">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586722702779" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1586722702779">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1586722702779" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1586722702779">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1586722702779" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1586722702779">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1586722702779" />
+    <state width="640" height="191" key="ImportCMakeProjectWizard.bottomPanel" timestamp="1586346194396">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="640" height="191" key="ImportCMakeProjectWizard.bottomPanel/0.0.1366.728@0.0.1366.728" timestamp="1586346194396" />
+    <state width="640" height="445" key="ImportCMakeProjectWizard.topPanel" timestamp="1586346194396">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="640" height="445" key="ImportCMakeProjectWizard.topPanel/0.0.1366.728@0.0.1366.728" timestamp="1586346194396" />
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1586681649940">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586681649940" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1586106163997">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1586106163997" />
-    <state x="339" y="17" width="670" height="676" key="search.everywhere.popup" timestamp="1586118634547">
+    <state x="339" y="17" width="672" height="676" key="search.everywhere.popup" timestamp="1586360917012">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="17" width="670" height="676" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1586118634547" />
+    <state x="339" y="17" width="672" height="676" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1586360917012" />
   </component>
 </project>

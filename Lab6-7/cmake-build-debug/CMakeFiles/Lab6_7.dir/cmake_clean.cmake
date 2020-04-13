@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Lab6_7.dir/Domain/Application.cpp.obj"
   "CMakeFiles/Lab6_7.dir/Repository/FileRepository.cpp.obj"
+  "CMakeFiles/Lab6_7.dir/Repository/MapRepository.cpp.obj"
   "CMakeFiles/Lab6_7.dir/Service/ApplicationService.cpp.obj"
   "CMakeFiles/Lab6_7.dir/Tests/Tests.cpp.obj"
   "CMakeFiles/Lab6_7.dir/UI/Console.cpp.obj"

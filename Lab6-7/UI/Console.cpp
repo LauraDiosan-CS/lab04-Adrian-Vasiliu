@@ -12,16 +12,16 @@ Console::~Console() = default;
 
 void Console::add_application() {
     char name_string[50];
-    int memory_kb, status;
+    int memory_kb, status = 0;
     cout << "Name: ";
     cin >> name_string;
     char *name = name_string;
     cout << "Memory (in KB): ";
     cin >> memory_kb;
-    cout << "Status (1=RAM or 2=swap): ";
-    cin >> status;
-    service.add_application(name, memory_kb, status);
-    cout << "Application added\n";
+    int ok = service.add_application(name, memory_kb, status);
+    if (ok == 0)
+        cout << "Application added\n";
+    else if (ok == -1) cout << "Error: The application exceeds the maximum capacity of RAM!";
 }
 
 void Console::delete_application() {
@@ -50,17 +50,20 @@ void Console::update_application() {
 }
 
 void Console::show_applications() {
-    vector<Application> apps = service.get_all();
+    map<int, Application> apps = service.get_all();
     for (int i = 0; i < service.get_size(); i++)
         cout << i + 1 << ". " << apps[i];
 }
 
+
+
 void Console::run_console() {
+    cout << "\nInfo: Maximum capacity of RAM is 2048 KB!\n";
     bool work = true;
     int option = 0;
     while (work) {
-        cout << "\n\n"
-             <<"1. Add an application\n"
+        cout << "\n"
+             << "1. Add an application\n"
              << "2. Delete an application\n"
              << "3. Update an application\n"
              << "4. Show all applications\n"

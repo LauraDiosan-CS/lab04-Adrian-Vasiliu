@@ -92,6 +92,12 @@
 		<Unit filename="C:/Users/Admin/CLionProjects/Lab6-7/Repository/FileRepository.h">
 			<Option target="Lab6_7"/>
 		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/Lab6-7/Repository/MapRepository.cpp">
+			<Option target="Lab6_7"/>
+		</Unit>
+		<Unit filename="C:/Users/Admin/CLionProjects/Lab6-7/Repository/MapRepository.h">
+			<Option target="Lab6_7"/>
+		</Unit>
 		<Unit filename="C:/Users/Admin/CLionProjects/Lab6-7/Service/ApplicationService.cpp">
 			<Option target="Lab6_7"/>
 		</Unit>

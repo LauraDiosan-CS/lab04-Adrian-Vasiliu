@@ -7,25 +7,34 @@ CMakeFiles/Lab6_7.dir/Domain/Application.cpp.obj: ../Domain/Application.h
 CMakeFiles/Lab6_7.dir/Repository/FileRepository.cpp.obj: ../Domain/Application.h
 CMakeFiles/Lab6_7.dir/Repository/FileRepository.cpp.obj: ../Repository/FileRepository.cpp
 CMakeFiles/Lab6_7.dir/Repository/FileRepository.cpp.obj: ../Repository/FileRepository.h
+CMakeFiles/Lab6_7.dir/Repository/FileRepository.cpp.obj: ../Repository/MapRepository.h
+
+CMakeFiles/Lab6_7.dir/Repository/MapRepository.cpp.obj: ../Domain/Application.h
+CMakeFiles/Lab6_7.dir/Repository/MapRepository.cpp.obj: ../Repository/MapRepository.cpp
+CMakeFiles/Lab6_7.dir/Repository/MapRepository.cpp.obj: ../Repository/MapRepository.h
 
 CMakeFiles/Lab6_7.dir/Service/ApplicationService.cpp.obj: ../Domain/Application.h
 CMakeFiles/Lab6_7.dir/Service/ApplicationService.cpp.obj: ../Repository/FileRepository.h
+CMakeFiles/Lab6_7.dir/Service/ApplicationService.cpp.obj: ../Repository/MapRepository.h
 CMakeFiles/Lab6_7.dir/Service/ApplicationService.cpp.obj: ../Service/ApplicationService.cpp
 CMakeFiles/Lab6_7.dir/Service/ApplicationService.cpp.obj: ../Service/ApplicationService.h
 
 CMakeFiles/Lab6_7.dir/Tests/Tests.cpp.obj: ../Domain/Application.h
 CMakeFiles/Lab6_7.dir/Tests/Tests.cpp.obj: ../Repository/FileRepository.h
+CMakeFiles/Lab6_7.dir/Tests/Tests.cpp.obj: ../Repository/MapRepository.h
 CMakeFiles/Lab6_7.dir/Tests/Tests.cpp.obj: ../Service/ApplicationService.h
 CMakeFiles/Lab6_7.dir/Tests/Tests.cpp.obj: ../Tests/Tests.cpp
 
 CMakeFiles/Lab6_7.dir/UI/Console.cpp.obj: ../Domain/Application.h
 CMakeFiles/Lab6_7.dir/UI/Console.cpp.obj: ../Repository/FileRepository.h
+CMakeFiles/Lab6_7.dir/UI/Console.cpp.obj: ../Repository/MapRepository.h
 CMakeFiles/Lab6_7.dir/UI/Console.cpp.obj: ../Service/ApplicationService.h
 CMakeFiles/Lab6_7.dir/UI/Console.cpp.obj: ../UI/Console.cpp
 CMakeFiles/Lab6_7.dir/UI/Console.cpp.obj: ../UI/Console.h
 
 CMakeFiles/Lab6_7.dir/main.cpp.obj: ../Domain/Application.h
 CMakeFiles/Lab6_7.dir/main.cpp.obj: ../Repository/FileRepository.h
+CMakeFiles/Lab6_7.dir/main.cpp.obj: ../Repository/MapRepository.h
 CMakeFiles/Lab6_7.dir/main.cpp.obj: ../Service/ApplicationService.h
 CMakeFiles/Lab6_7.dir/main.cpp.obj: ../Tests/Tests.h
 CMakeFiles/Lab6_7.dir/main.cpp.obj: ../UI/Console.h

@@ -176,6 +176,33 @@ Repository/FileRepository.cpp.s:
 	$(MAKE) -f CMakeFiles\Lab6_7.dir\build.make CMakeFiles/Lab6_7.dir/Repository/FileRepository.cpp.s
 .PHONY : Repository/FileRepository.cpp.s
 
+Repository/MapRepository.obj: Repository/MapRepository.cpp.obj
+
+.PHONY : Repository/MapRepository.obj
+
+# target to build an object file
+Repository/MapRepository.cpp.obj:
+	$(MAKE) -f CMakeFiles\Lab6_7.dir\build.make CMakeFiles/Lab6_7.dir/Repository/MapRepository.cpp.obj
+.PHONY : Repository/MapRepository.cpp.obj
+
+Repository/MapRepository.i: Repository/MapRepository.cpp.i
+
+.PHONY : Repository/MapRepository.i
+
+# target to preprocess a source file
+Repository/MapRepository.cpp.i:
+	$(MAKE) -f CMakeFiles\Lab6_7.dir\build.make CMakeFiles/Lab6_7.dir/Repository/MapRepository.cpp.i
+.PHONY : Repository/MapRepository.cpp.i
+
+Repository/MapRepository.s: Repository/MapRepository.cpp.s
+
+.PHONY : Repository/MapRepository.s
+
+# target to generate assembly for a file
+Repository/MapRepository.cpp.s:
+	$(MAKE) -f CMakeFiles\Lab6_7.dir\build.make CMakeFiles/Lab6_7.dir/Repository/MapRepository.cpp.s
+.PHONY : Repository/MapRepository.cpp.s
+
 Service/ApplicationService.obj: Service/ApplicationService.cpp.obj
 
 .PHONY : Service/ApplicationService.obj
@@ -299,6 +326,9 @@ help:
 	@echo ... Repository/FileRepository.obj
 	@echo ... Repository/FileRepository.i
 	@echo ... Repository/FileRepository.s
+	@echo ... Repository/MapRepository.obj
+	@echo ... Repository/MapRepository.i
+	@echo ... Repository/MapRepository.s
 	@echo ... Service/ApplicationService.obj
 	@echo ... Service/ApplicationService.i
 	@echo ... Service/ApplicationService.s
